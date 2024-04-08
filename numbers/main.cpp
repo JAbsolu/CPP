@@ -1,19 +1,23 @@
 #include <iostream>
 using namespace std;
 
-void add(int a, int b) {
+void add(int a, int b) 
+{
   cout << a + b;
 }
 
-void multiply(int a, int b) {
+void multiply(int a, int b) 
+{
   cout << a * b;
 }
 
-void subtract(int a, int b) {
+void subtract(int a, int b) 
+{
   cout << a - b;
 }
 
-void divide(double a, double b) {
+void divide(double a, double b) 
+{
   cout << a / b;
 }
 
